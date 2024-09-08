@@ -1,0 +1,125 @@
+.customization-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .input {
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .char-limit {
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .character-preview {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .character-image {
+    width: 150px;
+    height: 300px;
+    object-fit: contain;
+  }
+  
+  .options-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .option-group {
+    margin-bottom: 1rem;
+  }
+  
+  .options {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .option {
+    border: 2px solid transparent;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+    border: 1px solid rgb(233, 233, 233);
+  }
+  
+  .option.selected {
+    border-color: #ff00ff;
+  }
+  
+  .hair-color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .hair-color.light {
+    background-color: #fce8b2;
+  }
+  
+  .hair-color.brown {
+    background-color: #7f5539;
+  }
+  
+  .hair-color.red {
+    background-color: #a52a2a;
+  }
+  
+  .hair-color.black {
+    background-color: #000;
+  }
+  
+  .eye-color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .eye-color.green {
+    background-color: #32cd32;
+  }
+  
+  .eye-color.brown {
+    background-color: #654321;
+  }
+  
+  .eye-color.blue {
+    background-color: #1e90ff;
+  }
+  
+  .skin-tone {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .skin-tone.light {
+    background-color: #fdd5b1;
+  }
+  
+  .skin-tone.medium {
+    background-color: #e2a469;
+  }
+  
+  .skin-tone.dark {
+    background-color: #8d5524;
+  }
+  
